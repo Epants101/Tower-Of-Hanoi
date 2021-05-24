@@ -69,7 +69,7 @@ int main(void)
     if (!ChangeDirectory(screenshotSaveDirectory.c_str()))
     {
         std::cout << "Screenshot directory is not available.\n";
-        errorHasOccured = true;
+        //errorHasOccured = true;
     }
 
     InitWindow(screenWidth, screenHeight, "Tower Of Hanoi");
